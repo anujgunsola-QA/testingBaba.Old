@@ -11,5 +11,6 @@ public class HomePage {
 		void launchBrowser() {
 			driver.manage().window().maximize();
 			driver.get("https://testingbaba.com/old/");
+			System.out.println("automation validation successfully done");
 		}
 }
